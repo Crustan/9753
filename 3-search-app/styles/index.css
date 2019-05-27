@@ -154,6 +154,10 @@ ul.autocomplete {
 
 .search-history__delete-item {
   margin-left: 1rem;
+  cursor: pointer;
+}
+.search-history__delete-item:hover {
+  cursor: pointer;
 }
 
 .search-history__delete-item>svg {
@@ -161,11 +165,11 @@ ul.autocomplete {
   width: 1rem;
   height: 1rem;
   vertical-align: middle;
+  pointer-events: none;
 }
 
 .search-history__delete-item:hover>svg {
   fill: red;
-  cursor: pointer;
 }
 
 @media screen and (min-width: 960px){
